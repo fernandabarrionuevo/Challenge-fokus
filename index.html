@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="assets/img/pomodoro.png" type="image/x-icon">
+    <title>Fokus</title>
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="assets/img/logo.png" alt="logo" />
+    </header>
+    <main>
+      <h1 class="title">
+        Optimiza tu productividad,
+        <b>sumérgete en lo que importa.</b>
+      </h1>
+      <div class="timer-container">
+        <div class="btn-container">
+          <button class="btn activo" id="enfocar">Enfocar</button>
+          <button class="btn" id="descanso-corto">Descanso Corto</button>
+          <button class="btn" id="descanso-largo">Descanso Largo</button>
+        </div>
+        <p id="timer"></p>
+        <button id="iniciar">Iniciar</button>
+        <button id="pausar">Pausar</button>
+        <button id="continuar">Continuar</button>
+      </div>
+    </main>
+    <footer>
+      <p class="footer">
+        Desarrollado por Fernanda Elena Barrionuevo.
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
